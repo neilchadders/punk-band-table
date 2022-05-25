@@ -43,13 +43,13 @@ th, tfoot {
 .total {
   text-align: end;
   border: solid 5px #800080;
-  font-family: "Rock Salt";
+  font-family: "Rock Salt", "Helvetica Neu", helvetica, arial, sans-serif;
 }
 
 .number {
   text-align: start;
   border: solid 5px #800080;
-  font-family: "Rock Salt";
+  font-family: "Rock Salt", "Helvetica Neu", helvetica, arial, sans-serif;
 }
 
 tr:nth-child(even) {

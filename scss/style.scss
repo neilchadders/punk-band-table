@@ -1,8 +1,11 @@
+
+$myFont: "Rock Salt", "Helvetica Neu", helvetica, arial, sans-serif;
+$myBorder: solid 5px #800080;
+$myBackgroundOne: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+
 body {
-    font-family: "Rock Salt", "Helvetica Neu", helvetica, arial, sans-serif;	
+    font-family: $myFont;	
     margin: 2em;
-  
-  
   }
   
   table {
@@ -14,7 +17,7 @@ body {
   
   
   th, tbody{
-      border:solid 5px #800080;
+      border: $myBorder;
       padding:  1%;
       text-align: center;
   
@@ -45,22 +48,22 @@ body {
   
   th, tfoot{ 
   
-      background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("leopard.jpeg");
+      background:$myBackgroundOne, url("leopard.jpeg");
       color: white;
       }
   
   
   .total{
       text-align: end;
-      border: solid 5px #800080;
-      font-family: "Rock Salt";
+      border: $myBorder;
+      font-family: $myFont;	
   
   }
   
   .number{	
       text-align: start;
-      border: solid 5px #800080;
-      font-family: "Rock Salt";
+      border: $myBorder;
+      font-family: $myFont;	
   
   }
   
