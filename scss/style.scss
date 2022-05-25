@@ -1,0 +1,73 @@
+body {
+    font-family: "Rock Salt", "Helvetica Neu", helvetica, arial, sans-serif;	
+    margin: 2em;
+  
+  
+  }
+  
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  
+  th, tbody{
+      border:solid 5px #800080;
+      padding:  1%;
+      text-align: center;
+  
+  }
+  
+  td {
+      padding: 1%;
+      font-family:  "Helvetica";
+  
+  }
+  
+  th, caption{
+      font-family: "Rock Salt";
+  }
+  
+  tbody {
+      background-image: url("noise.png");
+      background: #ff33cc ;	
+  }
+  
+  caption {
+  caption-side: bottom;
+  text-align: end;
+  padding:2%;
+  
+  }
+  
+  
+  th, tfoot{ 
+  
+      background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("leopard.jpeg");
+      color: white;
+      }
+  
+  
+  .total{
+      text-align: end;
+      border: solid 5px #800080;
+      font-family: "Rock Salt";
+  
+  }
+  
+  .number{	
+      text-align: start;
+      border: solid 5px #800080;
+      font-family: "Rock Salt";
+  
+  }
+  
+  
+  tr:nth-child(even) {
+      background: #e495e4;   
+  }
+  
+  
+  
